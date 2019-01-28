@@ -1,0 +1,93 @@
+{
+  "id": "8afadc76-4bee-4aa9-8c99-0a52f21d25e4",
+  "version": "2.0",
+  "name": "busqueda_tutorial",
+  "url": "https://www.guru99.com",
+  "tests": [{
+    "id": "673142b5-a421-4735-9f93-c0d5743f14aa",
+    "name": "busqueda_tutorial",
+    "commands": [{
+      "id": "1bf84af2-2c4a-4f5c-b86a-23d506c2a864",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b99d76a0-27df-4a29-9847-9bfd76bde932",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dce5726c-4e70-4f5a-8c2d-82be834c8d93",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Testing",
+      "targets": [
+        ["linkText=Testing", "linkText"],
+        ["css=.item118:nth-child(3) > .maximenuck", "css:finder"],
+        ["xpath=//div[@id='maximenuck243']/div[2]/ul/li[3]/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, 'javascript:void(0)')]", "xpath:href"],
+        ["xpath=//li[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "69b4025e-5ded-4e6f-a749-d7f368bed395",
+      "comment": "",
+      "command": "click",
+      "target": "css=.item890 .titreck",
+      "targets": [
+        ["css=.item890 .titreck", "css:finder"],
+        ["xpath=//div[@id='maximenuck243']/div[5]/div/div/div/ul/li[5]/a/span", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div/div/ul/li[5]/a/span", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "911bf1eb-c678-4bd9-b128-3c4a1e5bb017",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,610)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c888e67a-6b21-49f0-a261-4988cc20b7e2",
+      "comment": "",
+      "command": "click",
+      "target": "css=p:nth-child(7) img",
+      "targets": [
+        ["css=p:nth-child(7) img", "css:finder"],
+        ["css=img[alt=\"ETL Testing or Datawarehouse Testing : Ultimate Guide\"]", "css"],
+        ["xpath=//img[@alt='ETL Testing or Datawarehouse Testing : Ultimate Guide']", "xpath:img"],
+        ["xpath=//main[@id='g-mainbar']/div/div/div/div/div/div/div[2]/p[4]/a/img", "xpath:idRelative"],
+        ["xpath=//p[4]/a/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ea4b47e-fa1b-417c-982f-334ab2438803",
+      "comment": "",
+      "command": "click",
+      "target": "id=cboxClose",
+      "targets": [
+        ["id=cboxClose", "id"],
+        ["css=#cboxClose", "css:finder"],
+        ["css=#cboxClose", "css"],
+        ["xpath=//button[@id='cboxClose']", "xpath:attributes"],
+        ["xpath=//div[@id='cboxContent']/button[4]", "xpath:idRelative"],
+        ["xpath=//button[4]", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "325fa570-f914-4925-ba6e-91dcd9712fda",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["673142b5-a421-4735-9f93-c0d5743f14aa"]
+  }],
+  "urls": ["https://www.guru99.com/"],
+  "plugins": []
+}
